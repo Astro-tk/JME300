@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Poetry Portal - Grade 10 ELT Resources</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Free HTML Templates" name="keywords">
+    <meta content="Free HTML Templates" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Handlee&family=Nunito&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+
+    <!-- Flaticon Font -->
+    <link href="lib/flaticon/font/flaticon.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+    
+    <style>
+        .reflection-content {
+            max-height: 120px;
+            overflow: hidden;
+            transition: max-height 0.5s ease;
+            position: relative;
+        }
+        
+        .reflection-content.expanded {
+            max-height: 1000px;
+        }
+        
+        .read-more-btn {
+            cursor: pointer;
+            color: #17a2b8;
+            font-weight: 600;
+            display: inline-block;
+            margin-top: 10px;
+        }
+        
+        .read-more-btn i {
+            transition: transform 0.3s ease;
+        }
+        
+        .read-more-btn.expanded i {
+            transform: rotate(180deg);
+        }
+        
+        .reflection-summary {
+            background: linear-gradient(135deg, #f8f9fa, #e9ecef);
+            border-left: 4px solid #17a2b8;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Navbar Start -->
+    <div class="container-fluid bg-light position-relative shadow">
+        <nav class="navbar navbar-expand-lg bg-light navbar-light py-3 py-lg-0 px-0 px-lg-5">
+            <a href="" class="navbar-brand font-weight-bold text-secondary" style="font-size: 50px;">
+                <i class="flaticon-043-teddy-bear"></i>
+                <span class="text-primary">Poetry Portal</span>
+            </a>
+            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                <div class="navbar-nav font-weight-bold mx-auto py-0">
+                    <a href="#team" class="nav-item nav-link active">Our Team</a>
+                    <a href="#admin" class="nav-item nav-link">Administration</a>
+                    <a href="#lessons" class="nav-item nav-link">Lesson Plans</a>
+                    <a href="#reflection" class="nav-item nav-link">Reflection</a>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!-- Navbar End -->
+
+    <!-- Header Start -->
+    <div class="container-fluid bg-primary px-0 px-md-5 mb-5">
+        <div class="row align-items-center px-3">
+            <div class="col-lg-6 text-center text-lg-left">
+                <h4 class="text-white mb-4 mt-5 mt-lg-0">Grade 10 English Language Teaching</h4>
+                <h1 class="display-3 font-weight-bold text-white">Poetry Teaching Resources</h1>
+                <p class="text-white mb-4">Interactive, CAPS-aligned materials to make poetry engaging and accessible for English learners. Our website provides teachers with ready-to-use digital resources that combine technology with curriculum-based pedagogy.</p>
+                <a href="#lessons" class="btn btn-secondary mt-1 py-3 px-5">Explore Lessons</a>
+            </div>
+            <div class="col-lg-6 text-center text-lg-right">
+                <img class="img-fluid mt-5" src="img/header.png" alt="">
+            </div>
+        </div>
+    </div>
+    <!-- Header End -->
+
+    <!-- Team Section Start -->
+    <div id="team" class="container-fluid pt-5">
+        <div class="container">
+            <div class="text-center pb-2">
+                <p class="section-title px-5"><span class="px-2">Our Team</span></p>
+                <h1 class="mb-4">Meet Our Team</h1>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-lg-4 text-center team mb-5">
+                    <div class="position-relative overflow-hidden mb-4" style="border-radius: 100%;">
+                        <img class="img-fluid w-100" src="img/team-1.jpg" alt="" >
+                        <div
+                            class="team-social d-flex align-items-center justify-content-center w-100 h-100 position-absolute">
+                            <a class="btn btn-outline-light text-center mr-2 px-0" style="width: 38px; height: 38px;"
+                                href="#"><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-outline-light text-center mr-2 px-0" style="width: 38px; height: 38px;"
+                                href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-outline-light text-center px-0" style="width: 38px; height: 38px;"
+                                href="#"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                    <h4>Nqobile Ntuli</h4>
+                    <i>Web Designer</i>
+                    <p class="mt-2">In charge of designing the layout, visuals, and navigation of the website. Ensures the platform is interactive, visually appealing, and easy for teachers to use.</p>
+                </div>
+                <div class="col-md-6 col-lg-4 text-center team mb-5">
+                    <div class="position-relative overflow-hidden mb-4" style="border-radius: 100%;">
+                        <img class="img-fluid w-100" src="img/team-2.jpg" alt="" >
+                        <div
+                            class="team-social d-flex align-items-center justify-content-center w-100 h-100 position-absolute">
+                            <a class="btn btn-outline-light text-center mr-2 px-0" style="width: 38px; height: 38px;"
+                                href="#"><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-outline-light text-center mr-2 px-0" style="width: 38px; height: 38px;"
+                                href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-outline-light text-center px-0" style="width: 38px; height: 38px;"
+                                href="#"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                    <h4>Molebogeng Monyai</h4>
+                    <i>Editor and Evaluator</i>
+                    <p class="mt-2">Ensures linguistic accuracy, cohesion, and consistency throughout the website content. Proofreads all lesson materials and web text to maintain professional quality.</p>
+                </div>
+                <div class="col-md-6 col-lg-4 text-center team mb-5">
+                    <div class="position-relative overflow-hidden mb-4" style="border-radius: 100%;">
+                        <img class="img-fluid w-100" src="img/team-3.jpg" alt="" >
+                        <div
+                            class="team-social d-flex align-items-center justify-content-center w-100 h-100 position-absolute">
+                            <a class="btn btn-outline-light text-center mr-2 px-0" style="width: 38px; height: 38px;"
+                                href="#"><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-outline-light text-center mr-2 px-0" style="width: 38px; height: 38px;"
+                                href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-outline-light text-center px-0" style="width: 38px; height: 38px;"
+                                href="#"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                    <h4>Winnie Phaleng</h4>
+                    <i>Content Developer</i>
+                    <p class="mt-2">Responsible for researching, planning, and writing the lesson plans and supporting learning materials. Ensures all activities and resources align with CAPS outcomes.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Team Section End -->
+
+    <!-- Administration Section Start -->
+    <div id="admin" class="container-fluid py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-5">
+                    <img class="img-fluid rounded mb-5 mb-lg-0" src="img/about-1.jpg" alt="">
+                </div>
+                <div class="col-lg-7">
+                    <p class="section-title pr-5"><span class="pr-2">Administration</span></p>
+                    <h1 class="mb-4">About Our Project</h1>
+                    <p>This website has been specifically developed for Grade 10 English learners within the Senior and Further Education and Training (FET) Phase. It is designed to support both English Home Language and First Additional Language classrooms.</p>
+                    <div class="row pt-2 pb-4">
+                        <div class="col-6 col-md-4">
+                            <img class="img-fluid rounded" src="img/about-2.jpg" alt="">
+                        </div>
+                        <div class="col-6 col-md-8">
+                            <ul class="list-inline m-0">
+                                <li class="py-2 border-top border-bottom"><i class="fa fa-check text-primary mr-3"></i>CAPS Curriculum Aligned</li>
+                                <li class="py-2 border-bottom"><i class="fa fa-check text-primary mr-3"></i>Interactive Digital Resources</li>
+                                <li class="py-2 border-bottom"><i class="fa fa-check text-primary mr-3"></i>Differentiated Instruction</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <a href="#lessons" class="btn btn-primary mt-2 py-2 px-4">View Lesson Plans</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Administration Section End -->
+
+    <!-- Facilities Start -->
+    <div class="container-fluid pt-5">
+        <div class="container pb-3">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 pb-1">
+                    <div class="d-flex bg-light shadow-sm border-top rounded mb-4" style="padding: 30px;">
+                        <i class="flaticon-050-fence h1 font-weight-normal text-primary mb-3"></i>
+                        <div class="pl-4">
+                            <h4>Curriculum Alignment</h4>
+                            <p class="m-0">All materials align with CAPS English curriculum for Grade 10, focusing on key language skills and poetry analysis.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 pb-1">
+                    <div class="d-flex bg-light shadow-sm border-top rounded mb-4" style="padding: 30px;">
+                        <i class="flaticon-022-drum h1 font-weight-normal text-primary mb-3"></i>
+                        <div class="pl-4">
+                            <h4>Interactive Activities</h4>
+                            <p class="m-0">Engage students with multimedia resources, group discussions, and creative response activities.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 pb-1">
+                    <div class="d-flex bg-light shadow-sm border-top rounded mb-4" style="padding: 30px;">
+                        <i class="flaticon-030-crayons h1 font-weight-normal text-primary mb-3"></i>
+                        <div class="pl-4">
+                            <h4>Digital Literacy</h4>
+                            <p class="m-0">Develop students' digital skills while enhancing their understanding and appreciation of poetry.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Facilities Start -->
+
+    <!-- Lesson Plans Section Start -->
+    <div id="lessons" class="container-fluid pt-5">
+        <div class="container">
+            <div class="text-center pb-2">
+                <p class="section-title px-5"><span class="px-2">Lesson Plans</span></p>
+                <h1 class="mb-4">Teaching Resources</h1>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 mb-5">
+                    <div class="card border-0 bg-light shadow-sm pb-2">
+                        <div class="card-body text-center">
+                            <h4 class="card-title">Poetry Analysis Lesson</h4>
+                            <p class="card-text">A comprehensive lesson plan focusing on poetic devices, forms, and figures of speech. Students will analyze poems and develop critical thinking skills.</p>
+                        </div>
+                        <div class="card-footer bg-transparent py-4 px-5">
+                            <div class="row border-bottom">
+                                <div class="col-6 py-1 text-right border-right"><strong>Grade Level</strong></div>
+                                <div class="col-6 py-1">Grade 10</div>
+                            </div>
+                            <div class="row border-bottom">
+                                <div class="col-6 py-1 text-right border-right"><strong>Duration</strong></div>
+                                <div class="col-6 py-1">1 Hour</div>
+                            </div>
+                            <div class="row border-bottom">
+                                <div class="col-6 py-1 text-right border-right"><strong>Resources</strong></div>
+                                <div class="col-6 py-1">Worksheets, Videos, Activities</div>
+                            </div>
+                            <div class="row">
+                                <div class="col-6 py-1 text-right border-right"><strong>Skills</strong></div>
+                                <div class="col-6 py-1">Analysis, Critical Thinking</div>
+                            </div>
+                        </div>
+                        <a href="" class="btn btn-primary px-4 mx-auto mb-4">View Details</a>
+                    </div>
+                </div>
+                <div class="col-lg-6 mb-5">
+                    <div class="card border-0 bg-light shadow-sm pb-2">
+                        <div class="card-body text-center">
+                            <h4 class="card-title">Creative Response Lesson</h4>
+                            <p class="card-text">Students explore personal responses to poetry and create their own poetic pieces using digital tools, fostering creativity and self-expression.</p>
+                        </div>
+                        <div class="card-footer bg-transparent py-4 px-5">
+                            <div class="row border-bottom">
+                                <div class="col-6 py-1 text-right border-right"><strong>Grade Level</strong></div>
+                                <div class="col-6 py-1">Grade 10</div>
+                            </div>
+                            <div class="row border-bottom">
+                                <div class="col-6 py-1 text-right border-right"><strong>Duration</strong></div>
+                                <div class="col-6 py-1">1 Hour</div>
+                            </div>
+                            <div class="row border-bottom">
+                                <div class="col-6 py-1 text-right border-right"><strong>Resources</strong></div>
+                                <div class="col-6 py-1">Digital Tools, Examples</div>
+                            </div>
+                            <div class="row">
+                                <div class="col-6 py-1 text-right border-right"><strong>Skills</strong></div>
+                                <div class="col-6 py-1">Creativity, Expression</div>
+                            </div>
+                        </div>
+                        <a href="" class="btn btn-primary px-4 mx-auto mb-4">View Details</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Lesson Plans Section End -->
+
+    <!-- Reflection Section Start -->
+    <div id="reflection" class="container-fluid py-5">
+        <div class="container">
+            <div class="text-center pb-2">
+                <p class="section-title px-5"><span class="px-2">Reflection</span></p>
+                <h1 class="mb-4">Group Reflection</h1>
+            </div>
+            
+            <!-- Group Evaluation -->
+            <div class="row mb-5">
+                <div class="col-12">
+                    <div class="card border-0 shadow-sm">
+                        <div class="card-header bg-primary text-white">
+                            <h4 class="mb-0">Group Evaluation</h4>
+                        </div>
+                        <div class="card-body">
+                            <div class="reflection-content" id="group-evaluation-content">
+                                <p>The website has been purposefully designed to ensure clarity, visual appeal, and ease of navigation for both educators and learners. Each section is strategically structured to serve a distinct pedagogical function, ensuring a coherent and logical flow of content.</p>
+                                <p>The thoughtful use of color, imagery, and multimedia elements enhances user engagement while maintaining alignment with the learning objectives. From a pedagogical perspective, the website fosters active and collaborative learning through interactive poetry activities and CAPS-aligned lesson plans.</p>
+                                <p>Furthermore, it accommodates differentiated instruction and promotes creativity, critical thinking, and digital literacy. In doing so, it renders the study of poetry more accessible, relevant, and engaging for Grade 10 learners.</p>
+                            </div>
+                            <div class="read-more-btn" data-target="group-evaluation-content">
+                                Read More <i class="fa fa-chevron-down ml-1"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Individual Reflections -->
+            <div class="row">
+                <div class="col-lg-4 mb-4">
+                    <div class="card border-0 shadow-sm h-100">
+                        <div class="card-header bg-light">
+                            <h5 class="mb-0">Winnie - Content Developer</h5>
+                        </div>
+                        <div class="card-body">
+                            <div class="reflection-content" id="winnie-content">
+                                <p>As the content developer, my primary challenge involved designing lesson plans that were both academically rigorous and digitally engaging. Initially, I found it difficult to strike a balance between theoretical soundness and creative innovation, particularly when integrating online instructional tools.</p>
+                                <p>However, through collaboration and constructive team feedback, I developed the ability to adapt lesson components to suit a digital learning environment while maintaining full alignment with the CAPS curriculum. This process not only enhanced my confidence in creating learner-centred instructional materials but also deepened my understanding of how technology can transform traditional poetry lessons into more dynamic, inclusive, and interactive learning experiences.</p>
+                            </div>
+                            <div class="read-more-btn" data-target="winnie-content">
+                                Read More <i class="fa fa-chevron-down ml-1"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-4">
+                    <div class="card border-0 shadow-sm h-100">
+                        <div class="card-header bg-light">
+                            <h5 class="mb-0">Nqobile - Web Designer</h5>
+                        </div>
+                        <div class="card-body">
+                            <div class="reflection-content" id="nqobile-content">
+                                <p>Initially, I found the website design process quite challenging, particularly in ensuring that the platform was both user-friendly, visually balanced, and pedagogically meaningful. Mastering digital tools such as Wix and effectively embedding multimedia elements required considerable time, experimentation, and adaptability.</p>
+                                <p>With the consistent guidance, collaboration, and constructive feedback from my group members, I was able to refine the site's structure, resulting in a more intuitive, coherent, and professional layout. This experience not only strengthened my digital design, collaboration, and problem-solving skills but also deepened my understanding of how technology can effectively enhance creativity, engagement, and inclusivity in the teaching and learning of poetry and language.</p>
+                            </div>
+                            <div class="read-more-btn" data-target="nqobile-content">
+                                Read More <i class="fa fa-chevron-down ml-1"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-4">
+                    <div class="card border-0 shadow-sm h-100">
+                        <div class="card-header bg-light">
+                            <h5 class="mb-0">Molebogeng - Editor & Evaluator</h5>
+                        </div>
+                        <div class="card-body">
+                            <div class="reflection-content" id="molebogeng-content">
+                                <p>My greatest challenge was ensuring that the website upheld academic accuracy while remaining engaging and accessible to users. Striking a balance between formal academic language and user-friendly communication required meticulous editing, critical reflection, and close collaboration with my peers.</p>
+                                <p>Navigating these challenges strengthened my communication, teamwork, and analytical skills, allowing me to approach content creation with greater precision and creativity. Moreover, I learned how thoughtful design, combined with reflective practice, can transform teaching materials into meaningful and impactful learning experiences. This project deepened my appreciation for collaborative work and highlighted the importance of feedback in developing high-quality, pedagogically sound educational resources.</p>
+                            </div>
+                            <div class="read-more-btn" data-target="molebogeng-content">
+                                Read More <i class="fa fa-chevron-down ml-1"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Group Reflection Summary -->
+            <div class="row mt-5">
+                <div class="col-12">
+                    <div class="card border-0 shadow-sm reflection-summary">
+                        <div class="card-header bg-secondary text-white">
+                            <h4 class="mb-0">Group Reflection Summary</h4>
+                        </div>
+                        <div class="card-body">
+                            <div class="reflection-content" id="summary-content">
+                                <p>As a group, we reflected deeply on our collaborative experience throughout the project. At the outset, we encountered several challenges, particularly in coordinating schedules, delegating tasks, and agreeing on a unified design direction. These initial difficulties occasionally led to miscommunication and delays, highlighting the complexities of teamwork in a digital context.</p>
+                                <p>However, by establishing clear roles, improving our communication strategies, and meeting regularly to discuss progress, we were able to overcome these challenges and foster a more cohesive and productive working environment.</p>
+                                <p>One significant advantage of this collaborative process was the diversity of strengths within our team. Each member contributed unique expertise that ranged from content development and visual design to technical skills and creative problem-solving, which enriched the quality and depth of our final product. The experience enhanced our ability to engage in active listening, provide constructive feedback, and manage time effectively.</p>
+                                <p>Professionally, this project deepened our understanding of how theoretical principles translate into practical digital teaching tools, demonstrating how technology can enhance pedagogy and learner engagement. Personally, we developed greater adaptability, accountability, and respect for diverse perspectives and skills that are essential for effective teamwork and future classroom practice.</p>
+                                <p>Although the collaborative process presented challenges such as time constraints and differing viewpoints, the advantages include professional growth, creativity, and shared learning and the advantages far outweighed the difficulties, resulting in a meaningful and transformative learning experience.</p>
+                            </div>
+                            <div class="read-more-btn" data-target="summary-content">
+                                Read More <i class="fa fa-chevron-down ml-1"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Reflection Section End -->
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-secondary text-white mt-5 py-5 px-sm-3 px-md-5">
+        <div class="row pt-5">
+            <div class="col-lg-4 col-md-6 mb-5">
+                <a href="" class="navbar-brand font-weight-bold text-primary m-0 mb-4 p-0" style="font-size: 40px; line-height: 40px;">
+                    <i class="flaticon-043-teddy-bear"></i>
+                    <span class="text-white">Poetry Portal</span>
+                </a>
+                <p>Interactive, CAPS-aligned poetry teaching resources for Grade 10 English learners. Our website combines technology with curriculum-based pedagogy to make poetry engaging and accessible.</p>
+                <div class="d-flex justify-content-start mt-4">
+                    <a class="btn btn-outline-primary rounded-circle text-center mr-2 px-0"
+                        style="width: 38px; height: 38px;" href="#"><i class="fab fa-twitter"></i></a>
+                    <a class="btn btn-outline-primary rounded-circle text-center mr-2 px-0"
+                        style="width: 38px; height: 38px;" href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-outline-primary rounded-circle text-center mr-2 px-0"
+                        style="width: 38px; height: 38px;" href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-5">
+                <h3 class="text-primary mb-4">Quick Links</h3>
+                <div class="d-flex flex-column justify-content-start">
+                    <a class="text-white mb-2" href="#team"><i class="fa fa-angle-right mr-2"></i>Our Team</a>
+                    <a class="text-white mb-2" href="#admin"><i class="fa fa-angle-right mr-2"></i>Administration</a>
+                    <a class="text-white mb-2" href="#lessons"><i class="fa fa-angle-right mr-2"></i>Lesson Plans</a>
+                    <a class="text-white" href="#reflection"><i class="fa fa-angle-right mr-2"></i>Reflection</a>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-5">
+                <h3 class="text-primary mb-4">Project Details</h3>
+                <div class="d-flex">
+                    <h4 class="fa fa-graduation-cap text-primary"></h4>
+                    <div class="pl-3">
+                        <h5 class="text-white">Course</h5>
+                        <p>JME 300 - November 2025</p>
+                    </div>
+                </div>
+                <div class="d-flex">
+                    <h4 class="fa fa-users text-primary"></h4>
+                    <div class="pl-3">
+                        <h5 class="text-white">Target Audience</h5>
+                        <p>Grade 10 English Learners</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid pt-5" style="border-top: 1px solid rgba(23, 162, 184, .2);;">
+            <p class="m-0 text-center text-white">
+                &copy; <a class="text-primary font-weight-bold" href="#">Poetry Portal</a>. All Rights Reserved. 
+                JME 300 Exam Project - November 2025
+            </p>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-primary p-3 back-to-top"><i class="fa fa-angle-double-up"></i></a>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/isotope/isotope.pkgd.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+    
+    <script>
+        // Expandable reflection content functionality
+        document.addEventListener('DOMContentLoaded', function() {
+            const readMoreButtons = document.querySelectorAll('.read-more-btn');
+            
+            readMoreButtons.forEach(button => {
+                button.addEventListener('click', function() {
+                    const targetId = this.getAttribute('data-target');
+                    const content = document.getElementById(targetId);
+                    
+                    if (content.classList.contains('expanded')) {
+                        content.classList.remove('expanded');
+                        this.innerHTML = 'Read More <i class="fa fa-chevron-down ml-1"></i>';
+                        this.classList.remove('expanded');
+                    } else {
+                        content.classList.add('expanded');
+                        this.innerHTML = 'Read Less <i class="fa fa-chevron-up ml-1"></i>';
+                        this.classList.add('expanded');
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+
+</html>
